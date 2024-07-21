@@ -19,6 +19,7 @@ printf "\e[1;77m                      |_|                  \e[0m\e[1;33mv2.0\e[0
 
 printf " \n\e[1;77m coded by: github.com/kali-linux-tutorial/lockphish\e[0m \n"
 printf " \e[1;77mTwitter: twitter.com/kalilinux_in\e[1;77m\e[0m"
+printf " \e[1;77mGithub: https://github.com/Donriyon\e[1;77m\e[0m"
 printf "\n\n\n\e[1;91m Disclaimer: this tool is designed for security\n"
 printf " testing in an authorized simulated cyberattack\n"
 printf " Attacking targets without prior mutual consent\n"
